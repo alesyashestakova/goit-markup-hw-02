@@ -1,0 +1,206 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --accent-color: #2196F3;
+}
+
+body {
+    font-family: var(--main-font);
+    font-size: 14;
+    line-height: 1.71;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+/* HEADER */
+.logo-acent {
+    font-family: var(--secondary-font);
+    font-style: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 3%;
+    color: var(--accent-color);
+}
+
+.logo-black-color {
+    font-family: var(--secondary-font);
+    font-style: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 3%;
+    color: #000000;
+}
+
+.menu-link {
+    font-style: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 2%;
+    color:#212121;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.header-contact {
+    font-style: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 2%;
+    color: #757575;
+}
+
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--accent-color);
+}
+
+.contact-number {
+    font-style: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 2%;
+    color: #757575;
+}
+
+.contact-number:hover,
+.contact-number:focus {
+    color: var(--accent-color);
+}
+/* /HEADER */
+
+/* HERO */
+.hero {
+    font-weight: 1600px;
+    height: 600px;
+    top: 80px;
+    background-color: #E5E5E5;
+}
+
+.main-title {
+    font-style: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    vertical-align: top;
+    letter-spacing: 6%;
+    background-color: #E5E5E5;
+    color: #FFFFFF;
+}
+
+.modal-btn {
+    font-style: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 6%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+/* /HERO */
+
+/* SECTION*/
+.sectuon-work, .feature-list .text {
+    font-family: var(--main-font);
+    font-style: 700;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 3%;
+}
+
+.work-list .title {
+    font-family: var(--main-font);
+    font-style: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 3%;
+    color: #212121;
+}
+
+.employees-list-name {
+    font-family: var(--main-font);
+    font-style: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    vertical-align: top;
+    letter-spacing: 3%;
+    color: 212121;
+}
+
+.employees-list-position {
+    font-family: var(--main-font);
+    font-style: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    vertical-align: top;
+    letter-spacing: 3%;
+    color: 757575;
+}
+
+/* /SECTION*/
+
+/* FOOTER*/
+.contact-info-list {
+    font-family: var(--main-font);
+    font-style: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 3%;
+}
+
+/* /FOOTER*/
+
+/* BUTTON */
+
+.filter-btn {
+    font-family: var(--main-font);
+    font-style: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 3%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: #E5E5E5;
+    color: #212121;
+}
+
+/* /BUTTON */
+
+.work-list-title {
+    font-family: var(--main-font);
+    font-style: 400;
+    color: work-list-title;
+}
+
+.work-list {
+    font-family: var(--main-font);
+    font-style: 700;
+    color: work-list;
+}
